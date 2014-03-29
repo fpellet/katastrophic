@@ -78,7 +78,7 @@ public class Inv3st_Plan {
                 if (i > 0) {
                     output1 += "\n";
                 }
-                output1 += "Case" + string.Format(" #%d: ", i + 1) + allowingPrfts1[i];
+                output1 += "Case" + string.Format(" #{0}: ", i + 1) + allowingPrfts1[i];
             }
             return new Inv3st_Plan(output1.ToString(CultureInfo.InvariantCulture));
         }
